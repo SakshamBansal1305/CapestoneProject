@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1200px-Olympic_rings_without_rims.svg.png);
+    background-color: gray;
+}
+
+.container{
+    height: max-content;
+    background-color: black;
+    height: 70px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+}
+
+img{
+    height: 400px;
+    width: 700px;
+    margin-top: 42px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.container1{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 100px;
+    height: 750px;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+h2{
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+p{
+    color: yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+footer{
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:active{
+    color:green;
+}
+
+button{
+    background-color: black;
+}
